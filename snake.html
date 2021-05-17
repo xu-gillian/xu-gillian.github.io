@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Snake Game</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link
+      href="assets/img/pngkey.com-polaris-logo-png-8697360.png"
+      rel="icon"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/harmonyy.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-transparent">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo"></div>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link" href="index.html">Projects</a></li>
+            <li>
+              <a
+                class="nav-link"
+                href="https://xu-gillian.github.io/Resume_GillianXu.pdf"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+            <li><a class="nav-link" href="about.html">About</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+      <!-- ======= Food Order App Project ======= -->
+      <section id="harmonyy" class="harmonyy">
+        <div class="harmonyy">
+          <h1 style="font-weight: bold">Snake Game</h1>
+          <hr />
+          <p>
+            A game for users to play. Try and get the highest score!
+          </p>
+          <p>
+            Check out a live demo
+            <a href="https://youtu.be/WuvCgATi8U0">here</a>!
+          </p>
+          <h6 style="margin-bottom: 4rem">
+            Tools: Python - pygame
+          </h6>
+        </div>
+
+        <!-- Login Screen -->
+        <div class="container">
+          <div class="row no-gutters">
+            <div
+              class="content col-xl-5 d-flex align-items-stretch"
+              data-aos="fade-up"
+            >
+              <div class="content">
+                <img
+                  style="margin-left: 3rem"
+                  src="assets/img/snake/Start.JPG"
+                  alt=""
+                  width="400"
+                  height="300"
+                />
+              </div>
+            </div>
+            <div class="col-xl-7 d-flex align-items-stretch">
+              <div
+                class="icon-boxes d-flex flex-column justify-content-center"
+                style="margin-left: 10rem; margin-right: 10rem"
+              >
+                <h4 style="font-weight: bold" class="title">Start</h4>
+                <p style="color: rgb(136, 132, 132)" class="description">
+                  To start the game, press any of the arrow keys and start eating. 
+                </p>
+                
+              </div>
+              <!-- End .content-->
+            </div>
+          </div>
+        </div>
+
+        <!-- Dashboard -->
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="col-xl-6 d-flex align-items-stretch">
+              <div
+                class="icon-boxes d-flex flex-column justify-content-center"
+                style="margin-left: 7rem; margin-right: 7rem; margin-top: 2rem"
+              >
+                <h4 style="font-weight: bold" class="title">Goal</h4>
+                <p style="color: rgb(136, 132, 132)" class="description">
+                    The point of this game is to eat as much as you can without hitting your tail and any walls.
+                  </p>
+              </div>
+              <!-- End .content-->
+            </div>
+            <div
+              class="content col-xl-5 d-flex align-items-stretch"
+              data-aos="fade-up"
+            >
+              <div class="content">
+                <img
+                  style="margin-right: 15rem; margin-top: 2rem"
+                  src="assets/img/snake/Goal.JPG"
+                  alt=""
+                  width="400"
+                  height="300"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Messages -->
+        <div class="container">
+          <div class="row no-gutters">
+            <div
+              class="content col-xl-5 d-flex align-items-stretch"
+              data-aos="fade-up"
+            >
+              <div class="content">
+                <img
+                  style="margin-left: 3rem; margin-top: 2rem"
+                  src="assets/img/snake/Lost.JPG"
+                  alt=""
+                  width="400"
+                  height="300"
+                />
+              </div>
+            </div>
+            <div class="col-xl-7 d-flex align-items-stretch">
+              <div
+                class="icon-boxes d-flex flex-column justify-content-center"
+                style="
+                  margin-left: 10rem;
+                  margin-right: 10rem;
+                  margin-top: 2rem;
+                "
+              >
+                <h4 style="font-weight: bold" class="title">Lost</h4>
+                <p style="color: rgb(136, 132, 132)" class="description">
+                    If you lose, you can choose to try again or quit the application by pressing c and q respectively.
+                </p>
+              </div>
+              <!-- End .content-->
+            </div>
+          </div>
+        </div>
+
+        <!-- Inspiration -->
+        <div class="inspiration">
+          <hr style="margin-bottom: 2rem;" />
+          <h2 style="color: black">Inspiration</h2>
+          <p>
+            This game was one of my favourites before any other mobile game came out, so I wanted to create a version of my own.
+          </p>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2><span style="color: black">Contact</span></h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="info-box mb-4">
+                <i class="bx bx-map"></i>
+                <h3>Locations</h3>
+                <p>Toronto | Waterloo ON</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="info-box mb-4">
+                <i class="bx bx-envelope"></i>
+                <h3>Email</h3>
+                <p>gillianxu09@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="info-box mb-4">
+                <i class="bx bx-phone-call"></i>
+                <h3>Call</h3>
+                <p>+1 (647) 528-1092</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="social-links mt-3">
+            <a href="https://www.facebook.com/gillian.xuu/" class="facebook"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://github.com/xu-gillian" class="github"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/gillian-xuu/" class="linkedin"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Gillian Xu</span></strong
+          >. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
